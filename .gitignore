@@ -1,0 +1,9 @@
+# Ignore uncompressed 184MB similarity matrix (32MB similarity.pkl.bz2 will be pushed instead)
+similarity.pkl
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Streamlit local config
+.streamlit/secrets.toml
